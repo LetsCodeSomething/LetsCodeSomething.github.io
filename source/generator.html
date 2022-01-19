@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abyss Walker - ГЕНЕРАТОР</title>
+    <link href="styles/generator.css" rel="stylesheet">
+    <script src="js/generator.js"></script>
+</head>
+<body>
+    <div class="canvas-wrapper">
+        <canvas width="900" height="400" id="fracCanvas"></canvas>
+    </div>
+    <div class="controls-wrapper-main">
+        <div class="controls-wrapper">
+            <div id="controlsWrapper1Name">Параметры формулы</div>
+            <div class="param-name-pair">
+                <div class="name" id="dxName">Центр (Re):</div><input type="number" id="dx" value="0">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="dyName">Центр (Im):</div><input type="number" id="dy" value="0">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="sizeXName">Масштаб (Re):</div><input type="number" id="sizeX" value="0.006">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="sizeYName">Масштаб (Im):</div><input type="number" id="sizeY" value="0.006">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="bailoutName">Предел удаления:</div><input type="number" id="bailout" value="2">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="nName">Макс. число итераций:</div><input type="number" id="n" value="50">
+            </div>
+        </div>
+        <div class="controls-wrapper">
+            <div id="controlsWrapper2Name">Параметры изображения</div>
+            <div class="param-name-pair">
+                <div class="name" id="widthName">Ширина:</div><input type="number" id="width" value="900">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="heightName">Высота:</div><input type="number" id="height" value="400">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="paletteName">Палитра:</div>
+                <select required id="palette">
+                    <option value="palette1" selected>Двухцветная</option>
+                    <option value="palette2">Градиентная (скорость удаления)</option>
+                </select>
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="innerColorName">Внутренний цвет:</div><input type="color" id="innerColor">
+            </div>
+            <div class="param-name-pair">
+                <div class="name" id="outerColorName">Внешний цвет:</div><input type="color" id="outerColor" value="#ffffff">
+            </div>
+        </div>
+    </div>
+    <div class="buttons-wrapper">
+        <button id="returnButton">Вернуться на главную</button>
+        <a id="downloadA"><button id="downloadButton">Сохранить изображение</button></a>
+        <button id="generateButton">Сгенерировать изображение</button>
+    </div>
+    <button id="translateButton">Translate to English</button>
+</body>
+</html>

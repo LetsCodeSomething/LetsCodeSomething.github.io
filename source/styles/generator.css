@@ -1,0 +1,143 @@
+body {
+    background-color: rgba(214,214,214,0.56);
+}
+
+.canvas-wrapper {
+    overflow: auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+}
+
+canvas {
+    background-color: white;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.controls-wrapper-main {
+    top: 0;
+    bottom: 0;
+    display: flex;
+
+    border: 2px solid black;
+    font-family: Calibri;
+}
+
+.controls-wrapper {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    font-family: Calibri;
+}
+
+.param-name-pair {
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.param-name-pair input {
+    float: right;
+    width: 50%;
+    height: 20px;
+}
+
+.param-name-pair select {
+    float: right;
+    width: 52%;
+    height: 20px;
+}
+
+.param-name-pair .name {
+    display: inline;
+}
+
+.buttons-wrapper {
+    height: 60px;
+
+    border: 2px solid black;
+    font-family: Calibri;
+}
+
+.buttons-wrapper #returnButton, #downloadButton {
+    margin-left: 40px;
+    float: left;
+    width: 12%;
+
+    background-color: #4d41e5;
+    color: white;
+}
+
+.buttons-wrapper #returnButton:hover, #downloadButton:hover {
+    background-color: #a58eee;
+    transition: background-color 0.2s;
+}
+
+.buttons-wrapper #generateButton {
+    float: right;
+    margin-right: 40px;
+    width: 15%;
+
+    background-color: #a58eee;
+}
+
+.buttons-wrapper #generateButton:hover {
+    background-color: #e3dcff;
+    transition: background-color 0.2s;
+}
+
+.buttons-wrapper #returnButton, #downloadButton, #generateButton {
+    margin-top: 20px;
+
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.buttons-wrapper a:link {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.buttons-wrapper a:visited {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.buttons-wrapper a:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.buttons-wrapper a:active {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#translateButton {
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 15%;
+
+    cursor: pointer;
+    font-family: Calibri;
+    background-color: white;
+    border-radius: 3px;
+}
+
+#translateButton:hover {
+    background-color: #e3dcff;
+    transition: background-color 0.2s;
+}

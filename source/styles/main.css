@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/mainbg.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #22006d;
+}
+
+.logo {
+    margin-bottom: 10px;
+    text-align: center;
+
+    color: #d9d9d9;
+    font-size: 100px;
+    font-family: "Segoe UI";
+}
+
+.drop-down-wrapper {
+    background-color: rgba(118, 121, 185, 0.48);
+    height: 70px;
+    width: 100%;
+}
+.drop-down-wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop-down-wrapper ul li {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    left: -17px;
+    margin-right: 5px;
+
+    top: 6px;
+    background-color: #423079;
+    border: 3px solid #5d5d5d;
+    font-size: 24px;
+    font-family: Calibri;
+    color: #d9d9d9;
+}
+
+.drop-down-wrapper ul li a:link {
+    color: #d9d9d9;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-wrapper ul li a:visited {
+    color: #d9d9d9;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-wrapper ul li a:hover {
+    color: #d9d9d9;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-wrapper ul li a:active {
+    color: #d9d9d9;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-down-wrapper ul li:hover {
+    background-color: #5c30be;
+    border: 3px solid #020202;
+    transition: background-color 0.2s;
+}
