@@ -4,6 +4,6 @@ Abyss Walker - это простой генератор фракталов, по
 
 Цвета градиентной палитры были взяты из стандартной палитры программы UltraFractal.
 
-Ссылка на главную страницу Abyss Walker: https://letscodesomething.github.io\
-Ссылка на страницу Википедии о множестве Мандельброта: https://ru.wikipedia.org/wiki/Множество_Мандельброта\
+Ссылка на главную страницу Abyss Walker: https://letscodesomething.github.io
+Ссылка на страницу Википедии о множестве Мандельброта: https://ru.wikipedia.org/wiki/Множество_Мандельброта
 Ссылка на страницу Википедии о способах раскрашивания множества Мандельброта: https://en.wikipedia.org/wiki/Plotting_algorithms_for_the_Mandelbrot_set
